@@ -1,4 +1,5 @@
 class PostsController < ApplicationController
+	#needed to make a change to resubmit
 	def index
 		@posts = Post.all
 	end
